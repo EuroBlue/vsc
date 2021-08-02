@@ -16,7 +16,7 @@ while True:
             print(x)
         else:
             res.append(x)
-            print("Found infinite loop beetween " +str(res[0])+" and "+str(res[y-1]))
+            print("Found an infinite loop beetween " +str(res[0])+" and "+str(res[y-1]))
             break
     res.append(x)
     print("it comes after " +str(y)+" steps")
