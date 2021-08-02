@@ -19,7 +19,7 @@ while True:
             print("Found infinite loop beetween " +str(res[0])+" and "+str(res[y-1]))
             break
     res.append(x)
-    print("it comes after " +str(y)+" units")
+    print("it comes after " +str(y)+" steps")
     x=[]
     for o in range(0,y+1):
         x.append(o)
