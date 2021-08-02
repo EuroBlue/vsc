@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 while True:
-    x=float(input("What to test: "))
+    x=float(input("What number to test: "))
     main=x
     y=0
     res=[]
