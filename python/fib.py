@@ -1,12 +1,4 @@
 dic = { 0 : 1, 1 : 1,}
-# def startFib(n: int) -> int:
-#     if n in dic:
-#             return(dic[n])
-#     else:
-#         print(n)
-#         x={n:fib(n)}
-#         dic.update(x)
-#         print(dic)
 def fib(n: int) -> int:
         if n in dic:
             return(dic[n])
