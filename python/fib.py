@@ -1,11 +1,17 @@
-
+dic = { 0 : 1, 1 : 1,}
+# def startFib(n: int) -> int:
+#     if n in dic:
+#             return(dic[n])
+#     else:
+#         print(n)
+#         x={n:fib(n)}
+#         dic.update(x)
+#         print(dic)
 def fib(n: int) -> int:
-        if n==0:
-            return 0
-        if n==1:
-            return 1
+        if n in dic:
+            return(dic[n])
         else:
-            print(n)
-            return (fib(n-1)+fib(n-2))
+            dic.update({n:(fib(n-1)+fib(n-2))})
+            return dic[n]
 d=int(input("d="))
 print("result is "+str(fib(d)))
