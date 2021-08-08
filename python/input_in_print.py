@@ -1,0 +1,1 @@
+print("Hello "+input("name?: ")+" that enjoys "+input("hobby?: "))
