@@ -1,0 +1,1 @@
+print("AI: Hello "+input("AI: What is your name?\nYou: ")+" form "+input("AI: Where are you from?\nYou: ")+" that enjoys "+input("AI: What is your hobby?\nYou: "))
