@@ -9,3 +9,4 @@ workspace.code-workspace
 main.code-workspace
 cpp/0ms_sol.exe
 .gitignore
+cpp/gui.exe
